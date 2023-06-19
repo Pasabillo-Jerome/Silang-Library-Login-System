@@ -1,0 +1,114 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(img/cvsu.jpg);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;       
+    -o-background-size: cover;
+}
+form{
+    height: 530px;
+    width: 350px;
+    padding: 35px 25px;
+    margin-top: 40px;
+    background-color: rgba(29, 204, 29, 0.685);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 15%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+
+}
+form *{
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+form h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+}
+form h3 span{
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+    color: #e5e5e5;
+}
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+::placeholder{
+    color: #e5e5e5;
+}
+#button{
+    width: 100%;
+    background-color: #ebf0ebe0;
+    color: #080710;
+    padding: 14px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+table{
+    background-color: rgba(29, 204, 29, 0.685);
+    border-style: solid;
+    width: 65%;
+    margin-left: 32%;
+    margin-top: 28px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    border: 2px solid rgba(255,255,255,0.1);
+    overflow: hidden;
+}  
+table td,th {
+    border: none;
+    padding: 8px;
+    text-align: center;  
+} 
+a{
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 30px;
+    font-size: 15px;
+}
+  
+a:hover {
+    background-color: #ffffff;
+}
